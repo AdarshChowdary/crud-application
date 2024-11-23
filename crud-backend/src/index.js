@@ -8,6 +8,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT;
 
+// Use nodemon src/index.js to run the server
 app.use(
   cors({
     origin: "http://localhost:5173", // Your frontend URL
